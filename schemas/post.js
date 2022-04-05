@@ -5,12 +5,12 @@ export default {
   fields: [
     {
       name: 'title',
-      title: 'Title',
+      title: 'Tittel',
       type: 'string',
     },
     {
       name: 'slug',
-      title: 'Slug',
+      title: 'Nettsideadresse',
       type: 'slug',
       options: {
         source: 'title',
@@ -19,7 +19,7 @@ export default {
     },
     {
       name: 'body',
-      title: 'Body',
+      title: 'Oppgavetekst',
       type: 'blockContent',
     },
   ],
